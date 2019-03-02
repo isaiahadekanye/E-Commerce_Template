@@ -646,4 +646,6 @@ h4 {
     width: 100%;
     float: none;
     text-align: center;
-    border-bottom: 1px solid black; } }
+    border-bottom: 1px solid black; }
+  .second {
+    font-size: 15px; } }
