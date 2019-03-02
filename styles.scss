@@ -1,0 +1,49 @@
+@import "./partials/_setup.scss";
+@import "./partials/_fonts.scss";
+@import "./partials/_header.scss";
+@import "./partials/_category.scss";
+@import "./partials/_socialMedia.scss";
+@import "./partials/_footer.scss";
+
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.wrapper2 {
+    margin: 20px auto;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.missionStatement {
+    display: block;
+    overflow: auto;
+    text-align: center;
+}
+
+.missionStatement h2 {
+    @extend h2;
+    font-size: 50px;
+    color: #694444;
+}
+
+.missionStatement p {
+    @extend p;
+    font-size: 30px;
+    color: black;
+}
+
+.design {
+    height: 80vh;
+    background: linear-gradient(rgba(20, 20, 20, .5), rgba(20, 20, 20, .5)), url('./assets/design.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@import "./partials/_resizer.scss";

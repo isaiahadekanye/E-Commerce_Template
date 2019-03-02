@@ -1,0 +1,53 @@
+.topFooter {
+    display: block;
+    overflow: auto;
+    background: #ede7d9;
+}
+
+.middleFooter {
+    width: calc(100%/4);
+    padding: 0px 30px;
+    float: left;
+}
+
+.bottomFooter {
+    display: block;
+    overflow: auto;
+    clear: both;
+    background-color: #694444;
+    padding: 15px 0px;
+}
+
+.middleFooter a {
+    text-decoration: none;
+    color: #694444;
+}
+
+.middleFooter a:hover {
+    color: black;
+
+}
+
+.bottomFooter p {
+    @extend p;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.bottomFooter .top {
+    font-family: 'Indie Flower', cursive;
+    padding: 10px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    width: 50%;
+    float: right;
+}
+
+.top:hover {
+    color: white;
+}
